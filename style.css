@@ -57,7 +57,7 @@ nav {
 
 
     /* main styles */
-main {
+.card-section, .plants, .lover {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -114,6 +114,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
 }
 .joinbar{
     width: 830px;
@@ -141,6 +143,30 @@ main {
     font-size: 3.125rem;
     margin-left: 122px;
     margin-bottom: 23px;
+}
+/* footer */
+footer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.ending {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+.logoft{
+    text-align: left;
+}
+.home >ul > li, .features >ul > li {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 19px;
+}
+.home, .features {
+
+}
+.fb > img {
+    margin: 0 10px;
 }
 /* Responsive for iphone 11 */
 @media screen and (max-width: 576px){
