@@ -1,0 +1,85 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 800
+  }
+
+/* common Styles */
+.bold {
+    font-weight: 700;
+}
+.dhushor {
+    color: #8987A1;
+}
+.komola {
+    color: #E95A08;
+}
+.dhushor2 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+}
+
+/* Header Styles */
+header {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.menubar >ul > li {
+    list-style-type: none;
+}
+.menubar > ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    gap:  20px;
+}
+.hero{
+    height: 461px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+    align-items: flex-end;
+}
+.title {
+    font-size: 4rem;
+}
+/* .banner title {
+    max-width: 570;
+
+
+    /* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+}
+.plants-title {
+    text-align: center;
+    font-size: 3.125rem;
+}
+.plants {
+    text-align: center;
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.card-title {
+    font-size: 1.375rem;
+    text-align: center;
+}
