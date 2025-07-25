@@ -28,12 +28,12 @@ header {
     max-width: 1140px;
     margin: 0 auto;
 }
+.logo {
+    max-width: 135px;
+}
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
-
 }
 .menubar >ul > li {
     list-style-type: none;
@@ -63,10 +63,9 @@ main {
     margin: 0 auto;
 }
 .card-section {
-    max-width: 1140px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat( 4, 1fr);
+    gap: 20px;
 }
 .plants-title {
     text-align: center;
@@ -75,11 +74,48 @@ main {
 .plants {
     text-align: center;
 }
-.card {
-    display: flex;
-    justify-content: center;
+.plants > p {
+    margin-bottom: 50px;
 }
-.card-title {
+.card {
+    height: 30.31rem;
+    padding: auto;
+}
+.card-title1, .card-title {
     font-size: 1.375rem;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.add-btn {
+    background-color: #E95A08;
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+}
+/* Responsive for iphone 11 */
+@media screen and (max-width: 576px){
+    .home, .about, .shop {
+        display: none;
+    }
+    .carttt {
+        grid-column-start: 4;
+    }
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .card-section {
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            justify-items: center;
+    }
+    .banner-title {
+        flex-direction: column;
+        text-align: center;
+    }
 }
