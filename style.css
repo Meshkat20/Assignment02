@@ -227,7 +227,7 @@ footer {
     list-style-type: none;
     display: block;
     margin-bottom: 19px; }
-.home ul li {
+.home2 ul li {
     list-style-type: none;
     display: block;
     margin-bottom: 19px;
@@ -294,6 +294,9 @@ footer {
         width: 321px;
         height: 27px;
 
+    }
+    .p3  img {
+        width: 100%;
     }
     .inpt {
         width: 60%;
