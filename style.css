@@ -81,6 +81,7 @@ nav {
     font-size: 3.125rem;
 }
 .plants {
+    margin-top: 80px;
     text-align: center;
 }
 .plants > p {
@@ -209,11 +210,6 @@ nav {
     margin-left: 122px;
     margin-bottom: 23px;
 }
-.main-deal {
-    display: flex;
-    flex-direction: column;
-    
-}
 /* footer */
 footer {
     max-width: 1140px;
@@ -287,6 +283,11 @@ footer {
     }
     .lover-text ul {
         text-align: left;
+    }
+    .main-deal {
+        display: flex;
+        flex-direction: column;
+    
     }
     .join-title {
         font-size: 20px;
