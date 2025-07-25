@@ -45,9 +45,8 @@ nav {
 }
 .hero{
     height: 461px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 120px;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     align-items: flex-end;
 }
 .title {
@@ -95,12 +94,60 @@ main {
     color: white;
     font-weight: 600;
 }
+/* lover section styles */
+.lover {
+    display: flex;
+    margin-top: 210px;
+}
+.lover-title {
+    font-size: 3.125rem;
+    padding-left: auto;
+    margin-left: 20px;
+}
+.font-weight {
+    font-weight: 400;
+}
+/* join styles */
+.join {
+    height: 533px;
+    background-image: url(B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joinbar{
+    width: 830px;
+}
+.inpt {
+    width: 646px;
+    height: 50px;
+    margin-right: 0px;
+}
+.sub-btn {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    width: 186px;
+    height: 50px;
+    margin-left: 0;
+}
+.joint-parent {
+    display: flex;
+    max-width: 830px;
+    height: 50px;
+}
+.join-title {
+    color: white;
+    font-size: 3.125rem;
+    margin-left: 122px;
+    margin-bottom: 23px;
+}
 /* Responsive for iphone 11 */
 @media screen and (max-width: 576px){
     .home, .about, .shop {
         display: none;
     }
-    .carttt {
+    .cart {
         grid-column-start: 4;
     }
     header {
@@ -117,5 +164,9 @@ main {
     .banner-title {
         flex-direction: column;
         text-align: center;
+    }
+    .hero {
+
+        flex-direction: column-reverse;
     }
 }
