@@ -41,10 +41,10 @@ nav {
 .menubar > ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr );
-    gap:  20px;
+    gap:  1rem;
 }
 .hero{
-    height: 461px;
+    /* height: 461px; */
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
     align-items: flex-end;
@@ -61,10 +61,11 @@ nav {
     max-width: 1140px;
     margin: 0 auto;
 }
-.card-section {
+.carcar {
     display: grid;
-    grid-template-columns: repeat( 4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 100%;
 }
 .plants-title {
     text-align: center;
@@ -77,7 +78,7 @@ nav {
     margin-bottom: 50px;
 }
 .card {
-    height: 30.31rem;
+    /* height: 30.31rem; */
     padding: auto;
 }
 .card-title1, .card-title {
@@ -114,7 +115,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 .joinbar{
@@ -131,12 +132,13 @@ nav {
     border: none;
     width: 186px;
     height: 50px;
-    margin-left: 0;
+    margin-left: 0px;
 }
 .joint-parent {
     display: flex;
     max-width: 830px;
     height: 50px;
+    gap: 0;
 }
 .join-title {
     color: white;
@@ -182,17 +184,67 @@ footer {
     main {
         width: 100%;
     }
-    .card-section {
+    /* .card-section {
             grid-template-columns: repeat(2, 1fr);
             margin: 0 auto;
             justify-items: center;
+    } */
+    .carcar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        flex: 1;
     }
     .banner-title {
         flex-direction: column;
         text-align: center;
     }
     .hero {
-
         flex-direction: column-reverse;
+    }
+    .lover {
+        flex-direction: column;
+    }
+    .loverimg{
+        width: 100%;
+    }
+    .lover-text > ul {
+        text-align: center;
+    }
+    .join-title {
+        font-size: 20px;
+        width: 321px;
+        height: 27px;
+
+    }
+    .inpt {
+        width: 218px;
+        height: 50px;
+        margin-right: 0px;
+    }
+    .sub-btn {
+        border: none;
+        width: 103px;
+        height: 50px;
+    }
+    .joint-parent {
+        display: flex;
+        justify-content: center;
+        max-width: 321px;
+        height: 50px;
+        gap: 0;
+    }
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ending {
+        display: inline-block;
+    }
+    .ending > ul > li { 
+        display: inline-block;
     }
 }
